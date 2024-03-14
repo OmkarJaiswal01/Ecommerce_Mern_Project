@@ -21,7 +21,7 @@ app.use(express.static("propic"));
 app.use(express.static("catimg"));
 
 
-const db=mongoose.connect("mongodb+srv://Omkar_jaiswal:Omkar%40123@cluster0.i5hnudo.mongodb.net//Category");
+const db=mongoose.connect("mongodb+srv://omkarjaiswal799184:H96XqzLw2zsuVdQT@om.1zyg5ha.mongodb.net/category");
 
 db.then(()=>{
     console.log("Database is connected")
